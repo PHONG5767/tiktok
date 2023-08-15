@@ -1,0 +1,14 @@
+.ant-pagination-item > a {
+
+        color: white !important;
+
+}
+.ant-pagination-item-active > a{
+    color: black !important;
+}
+.ant-pagination-item-link {
+    color:black !important;
+}
+.ant-pagination-item-ellipsis {
+    color: white !important;
+}

@@ -1,4 +1,3 @@
-// import "./SearchResultsList.css";
 import { SearchResult } from "./searchResult";
 import styles from "./search.module.scss";
 import { inputContext } from "../../search";

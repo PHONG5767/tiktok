@@ -1,5 +1,7 @@
+import { PokemonList } from "./Atomic";
 function Home() {
-  
-  return (<h2>Home Page</h2>);
+  return (<>
+  <PokemonList />
+  </>);
 }
 export default Home;

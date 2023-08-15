@@ -10,13 +10,15 @@ function SearchBarModule() {
   const [input, setInput] = useState("");
 
   return (
-    <inputContext.Provider value={{ setInput, input, results, setResults }}>
+    <inputContext.Provider value={{setInput, input,results,setResults}}>
       <div className={styles.searchContainer}>
         <div className={styles.inputSearch}>
           <SearchBar />
         </div>
         <div className={styles.resultsContainer}>
-          {results && results.length > 0 && <SearchResultsList />}
+          {results && results.length > 0 && (
+            <SearchResultsList />
+          )}
         </div>
       </div>
     </inputContext.Provider>
