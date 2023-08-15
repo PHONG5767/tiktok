@@ -1,6 +1,6 @@
-import './GlobalStyles.scss'
+import 'normalize.css'
 
-function GlobalStyles({Children}) {
-    return Children
+function GlobalStyles({children}) {
+    return children
 }
 export default GlobalStyles

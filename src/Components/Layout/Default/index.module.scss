@@ -1,0 +1,22 @@
+.content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 36px 24px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: calc(100vh - 59px);
+    padding-top: 32px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    background-color: rgba(18, 18, 18, 1);
+    height: 2000px;
+}
+
+
+  

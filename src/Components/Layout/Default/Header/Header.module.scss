@@ -1,0 +1,215 @@
+.wrapper {
+    height: 60px;
+    background: rgba(18, 18, 18, 1);
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.12);
+    width: 100%;
+    color: wheat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+
+}
+
+.inputTippy {
+    color: white;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 16px;
+
+}
+
+.buttonMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    position: relative;
+    cursor: pointer;
+    font-style: normal;
+    padding: 0 4px;
+}
+
+.logo {
+    height: 100%;
+
+    img {
+        display: inline-block;
+        height: 100%;
+    }
+}
+
+.searchBox {
+    min-width: 200px;
+    padding: 0 8px;
+    width: 516px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, .12);
+    border-radius: 92px;
+    position: relative;
+    // overflow: hidden;
+    z-index: 1;
+    margin: 0;
+}
+
+.input {
+    font-family: "IBM Plex Sans", TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03px;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    width: 100%;
+    color: rgba(255, 255, 255, .9);
+    caret-color: rgba(255, 59, 92, 1);
+    appearance: textfield;
+
+}
+
+.span {
+    width: 1px;
+    height: 28px;
+    margin: -3px 0;
+    background: rgba(255, 255, 255, .12);
+}
+
+.submit {
+    padding: 11px 16px 11px 12px;
+    margin: -12px -16px;
+    font-size: 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-left: 0;
+}
+
+.buttonRight {
+    display: flex;
+}
+
+.buttonMore {
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 20px;
+        height: 20px;
+        display: flex;
+    }
+}
+.override {
+    background-color: red !important;
+}
+
+// .upload {
+//     margin-left: 0px;
+//     position: relative;
+//     height: 36px;
+
+//     a {
+//         text-decoration: none;
+
+//     }
+
+// }
+
+// .uploadChild {
+//     min-width: 110px;
+//     padding: 0 16px;
+//     height: 36px;
+//     border: 1px solid rgba(22, 24, 35, 0.12);
+//     border-radius: 2px;
+//     display: -webkit-box;
+//     display: -webkit-flex;
+//     display: -ms-flexbox;
+//     display: flex;
+
+//     align-items: center;
+
+//     justify-content: center;
+//     background: rgba(255, 255, 255, .08);
+
+//     svg {
+//         height: 20px;
+//         width: 20px;
+//         margin-right: 8px;
+//         color: white;
+//         font-weight: 900;
+//     }
+
+//     span {
+//         font-style: normal;
+//         font-weight: 600;
+//         font-size: 16px;
+//         line-height: 24px;
+//         color: white;
+//     }
+// }
+
+// .iconRight {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .notification {
+//     margin-left: 16px;
+//     cursor: pointer;
+//     height: 32px;
+//     padding: 3px 3px 0;
+//     position: relative;
+//     -webkit-app-region: no-drag;
+
+//     sup {
+//         color: rgb(255, 255, 255);
+//         font-family: "IBM Plex Sans", TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+//         font-weight: 600;
+//         font-size: 14px;
+//         line-height: 18px;
+//         letter-spacing: 0.093px;
+//         left: 16px;
+//         position: absolute;
+//         top: -7px;
+//         min-width: 20px;
+//         border-radius: 10px;
+//         height: 20px;
+//         background: rgb(255, 59, 92);
+//         text-align: center;
+//         padding: 0px;
+//     }
+// }
+
+// .notificationIcon {
+//     width: 26px;
+//     height: 26px;
+//     -webkit-transform: none;
+//     -moz-transform: none;
+//     -ms-transform: none;
+//     transform: none;
+//     color: white;
+// }
+// .messenger{
+//     width: 40px;
+//     margin-left: 10px;
+// }

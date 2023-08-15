@@ -9,15 +9,12 @@ function App() {
         <Routes>
           {publishRoute.map((route, index) => {
             const Page = route.component;
-            
             let Layout = DefaultLayout;
             if(route.Layout === null) {
               Layout = Fragment
             } else if (route.Layout) {
               Layout = route.Layout
             }
-
-
             return (
               <Route
                 key={index}

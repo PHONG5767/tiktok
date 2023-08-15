@@ -1,0 +1,101 @@
+a {
+    text-decoration: none;
+}
+
+.sidebar {
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    perspective-origin: right top;
+    top: 60px;
+    bottom: 0;
+    width: 240px;
+    background: rgb(18, 18, 18);
+    position: fixed;
+    z-index: 99;
+    padding: 20px 0 26px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.framerContent{
+    padding: 20px 8px 24px 8px;
+    span{
+        color: rgba(255, 255, 255, .5);
+    font-family: "IBM Plex Sans",TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03px;
+    }
+}
+
+.navMain {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        color: white;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 8px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        font-size: 32px;
+        -webkit-transition: background ease-in-out 200ms;
+        transition: background ease-in-out 200ms;
+
+        span {
+            font-family: "IBM Plex Sans", TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: -0.028px;
+            margin-left: 8px;
+        }
+    }
+}
+
+.explore {
+    span {
+        color: rgba(255, 59, 92, 1);
+    }
+}
+
+.userContainer {
+    padding: 16px 0;
+    color: rgba(255, 255, 255, .75);
+    font-family: "IBM Plex Sans", TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.093px;
+    position: relative;
+
+}
+
+.userContainer:before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, .12);
+    -webkit-transform: scaleY(0.5);
+    -moz-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
